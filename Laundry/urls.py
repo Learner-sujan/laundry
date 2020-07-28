@@ -22,17 +22,4 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('laundry/', include('laundry_app.url')),
 
-# Learn section   
-    path('', views.index , name='egPage'),
-    path('learn', views.learn , name='learnPage' ),   
-    path('other', views.other, name='other'),
-    path('register', views.register, name='register'),
-    path('login', views.login, name='login'),
-    path('next', views.next , name='next'),
-    path('userAuth', views.userAuth, name='userAuth'),
-    path('userLogin', views.userLogin, name='userLogin'),
-    path('userLogout', views.userLogout, name='userLogout'),
-    path('fileUpload', views.fileUpload, name='fileUpload'),
-    path('crud', views.crud, name='crud'),
-    path('edit',views.edit, name='edit'),
 ]
